@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <link rel="shortcut icon" href="/images/tea fav-icon.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
@@ -29,19 +30,19 @@
 <body class="font-manrope">
     
     <main class="p-0 lg:max-w-screen-2xl mx-auto px-5 lg:px-28 ">
-    <header class="flex pt-10 mb-20">
-        <div class=""> 
-            <h3 class="text-5xl md:text-7xl">It's good <br> 
+    <header class="flex pt-10 mb-24">
+        <div class="mt-16"> 
+            <h3 class="text-5xl md:text-7xl font-bold">It's good <br> 
                 tea time at The <br> Tea House</h3>
         <br>
                 <p class="text-gray-500 w-3/5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
                 <br>
 
-        <button class=" h-14 bg-gradient-to-r from-orange-400 to-red-500 px-5 rounded-lg">Explore More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
+        <button class="h-14 bg-gradient-to-r from-orange-400 to-red-500 px-5 rounded-lg">Explore More <a href=""><i class="fa-solid fa-arrow-right -rotate-45"></i></a></button>
     
     </div>
     <div class="relative ">
-        <div>
+        <div class="mt-32 md:mt-28 lg:m-0">
              <img src="images/banner.png" alt="">
         </div>
         <div class="flex absolute top-40 md:top-80 md:left-32 lg:left-28  bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg items-center" >
@@ -63,7 +64,7 @@
     </div>
 
     <!-- Feature section -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-20 text-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-24 text-center">
 
       <div class="rounded-lg bg-gradient-to-b from-gray-200 to-white-400 p-6">
         <img  class="mx-auto" src="images/tea-1.png" alt="">
@@ -88,7 +89,7 @@
     </div>
 
     <!-- details tea -->
-    <section>
+    <section class="mb-24">
       <div class="grid grid-cols-1  md:grid-cols-2 gap-10 mb-20">
         <div class=" grid grid-cols-2 grid-rows-3 lg:w-auto gap-5">
            <div class="h-38 bg-gradient-to-r from-red-100 to-red-50 rounded-xl "></div>
@@ -115,14 +116,14 @@
     </section>
       <!-- Review section -->
 
-      <section class="mb-20">
+      <section class="mb-24">
         <div class="bg-gradient-to-r from-orange-400 to-red-600  rounded-xl grid grid-cols-1 lg:grid-cols-2 px-7 md:px-16">
           
           <div class="flex justify-center items-center overflow-hidden">
             <div class="w-5/6">
               <h1 class="font-bold text-5xl text-white mb-5 mt-10">Meet Our Super Clients</h1>
               <p class="mb-10 text-white">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
-              <button class="bg-white text-orange-600 py-3 px-7 mb-10 rounded-xl font-bold">Show All</button>
+              <a href=""><button class="bg-white text-orange-600 py-3 px-7 mb-10 rounded-xl font-bold">Show All</button></a>
             </div>
           </div>
 
@@ -178,8 +179,8 @@
 
       </section>
       <!-- News and Event -->
-      <section class="mb-20">
-        <div class="text-center">
+      <section class="mb-24">
+        <div class="text-center mb-16">
           <h1 class="text-center font-bold text-5xl mb-5">News & Events</h1>
           <p class="text-gray-600 mb-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, <br> by injected humour, or randomised words which don't look even slightly believable. </p>
         </div>
@@ -226,17 +227,75 @@
     </main>
    
     <!-- footer area -->
-    <footer class="bg-orange-100  text-gray-700 py-10 px-4">
-      <div class="max-w-screen-2xl mx-auto">
-        <div class="mb-8 flex  justify-between">
-          <img class="mb-8" src="images/fresh-2.png" alt="">
-          <div>
-           
-          </div>
+    <footer class="bg-orange-100  text-gray-700 py-10 px-4 md:px-10 ">
 
+      <!-- logo bar -->
+      <div class="w-9/12 mx-auto">
+        <div class="mb-8 flex justify-between">
+          <img class="mb-8" src="/images/cup.png" alt="">
+          
+          <div class="flex lg:gap-5 item-center">
+            <h4 class="ml-4 lg:ml-0 pt-2">Ready to get started?</h4>
+          <a href=""><button class="hover:bg-orange-700 h-12 lg:h-10 bg-gradient-to-r from-orange-400 to-red-500 px-4  text-white rounded-lg">Get Started</button></a>
+          </div>
+          
+        </div>
+        <!-- Link bar -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  gap-4">
+          <!-- first Llink -->
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Quick Links</h3>
+            <ul class="space-y-2">
+              <li><a class="hover:text-orange-600" href="">Home</a></li>
+              <li><a class="hover:text-orange-600" href="">About Us</a></li>
+              <li><a class="hover:text-orange-600" href="">Insurance</a></li>
+              <li><a class="hover:text-orange-600" href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <!-- second Link -->
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Our Services</h3>
+            <ul class="space-y-2">
+              <li><a class="hover:text-orange-600" href="">Life Insurance</a></li>
+              <li><a class="hover:text-orange-600" href="">Car Insurance</a></li>
+              <li><a class="hover:text-orange-600" href="">Health Insurance</a></li>
+              <li><a class="hover:text-orange-600" href="">House Insurance</a></li>
+            </ul>
+          </div>
+          <!-- third link -->
+          <div>
+            <h3 class="font-semibold text-lg mb-3">Help</h3>
+            <ul class="space-y-2">
+              <li><a class="hover:text-orange-600" href="">FAQs</a></li>
+              <li><a class="hover:text-orange-600" href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <!-- fourth link -->
+           <div>
+            <h3 class="font-bold text-xl mb-3">Subscribe to our newsletter</h3>
+            <div class="flex flex-col space-y-2">
+             <div>
+               <input type="email" placeholder="Email address" class="mt-5 lg:mt-0 border-none bg-transparent border-b-2 border-black pb-2 w-4/6 md:5/6">
+               <a href=""><i class="hover:bg-orange-700 cursor-pointer transition duration-300 ease-in-out fa-solid fa-chevron-right bg-orange-600 p-3 rounded-full justify-center items-center text-white mb-5 ml-3"></i></a>
+
+              <div class="flex justify-between mt-5 w-2/4">
+                <a href=""><i class="fa-brands fa-facebook"></i></a><a href=""><i class="fa-brands fa-twitter"></i></a><a href=""><i class="fa-brands fa-instagram"></i></a>
+              </div>
+               
+             
+             </div>
+             
+            </div>
+           </div>
+          
+        </div>
+        <div class="mt-16 text-center mb-5 ">
+          <p>© 2027 UIDesign.to - All rights reserved.</p>
+          
         </div>
 
       </div>
     </footer>
+
 </body>
 </html>
